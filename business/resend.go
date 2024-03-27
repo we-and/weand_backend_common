@@ -5,9 +5,12 @@ import (
 	//	"gorm.io/gorm"
 	//	"github.com/we-and/weand_backend_common/config"
 
+	//	"science-common-api/mysendinblue"
+
+	//	"science-common-api/mysendinblue"
+
 	"github.com/we-and/weand_backend_common/app"
 	m "github.com/we-and/weand_backend_common/models"
-	"github.com/we-and/weand_backend_common/mysendinblue"
 )
 
 func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool, string, error, string, bool) {
@@ -19,10 +22,10 @@ func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool
 
 	//generate new request
 	confirmtoken := GenerateEmailConfirmToken(emailConfirmRequest.Email)
-
+	return false, "update emailConfirmRequest record", dbresult2b.Error, "", false
 	//send request by email
-	sendSuccess := mysendinblue.TriggerRegisterAskEmailConfirmationDirect(r, emailConfirmRequest.Email, confirmtoken)
-
+	//sendSuccess := mysendinblue.TriggerRegisterAskEmailConfirmationDirect(r, emailConfirmRequest.Email, confirmtoken)
+/*
 	//record request
 	re := m.EmailConfirmRequest{
 		Email:     emailConfirmRequest.Email,
@@ -37,5 +40,5 @@ func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool
 	if dbresult4.Error != nil {
 		return false, "create EmailConfirmRequest record", dbresult4.Error, "", false
 	}
-	return true, "", nil, confirmtoken, sendSuccess
+	return true, "", nil, confirmtoken, sendSuccess*/
 }
