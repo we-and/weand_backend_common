@@ -5,11 +5,13 @@ import (
 	//	"gorm.io/gorm"
 	//	"github.com/we-and/weand_backend_common/config"
 
+	//	"science-common-api/mysendinblue"
+
 	"github.com/we-and/weand_backend_common/app"
 	m "github.com/we-and/weand_backend_common/models"
-	"github.com/we-and/weand_backend_common/mysendinblue"
+	//"github.com/we-and/weand_backend_common/mysendinblue"
 )
-
+ 
 func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool, string, error, string, bool) {
 	emailConfirmRequest.Renewed = true
 	dbresult2b := r.GetDb().Save(&emailConfirmRequest)
@@ -21,11 +23,11 @@ func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool
 	confirmtoken := GenerateEmailConfirmToken(emailConfirmRequest.Email)
 
 	//send request by email
-	sendSuccess := mysendinblue.TriggerRegisterAskEmailConfirmationDirect(r, emailConfirmRequest.Email, confirmtoken)
+//	sendSuccess := mysendinblue.TriggerRegisterAskEmailConfirmationDirect(r, emailConfirmRequest.Email, confirmtoken)
 
-	//record request
+/*	//record request
 	re := m.EmailConfirmRequest{
-		Email:     emailConfirmRequest.Email,
+		Email:     emailConfirmRequest.Email, 
 		Token:     confirmtoken,
 		Sent:      false,
 		Confirmed: false,
@@ -36,6 +38,7 @@ func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool
 	dbresult4 := r.GetDb().Create(&re)
 	if dbresult4.Error != nil {
 		return false, "create EmailConfirmRequest record", dbresult4.Error, "", false
-	}
-	return true, "", nil, confirmtoken, sendSuccess
+	}*/
+//	return true, "", nil, confirmtoken, sendSuccess
+	return false, "create EmailConfirmRequest record", dbresult2b.Error, "", false
 }
