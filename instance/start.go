@@ -1,7 +1,7 @@
 package instance
 
 import (
-	servers "weand-common-server/servers"
+	servers "github.com/we-and/weand-server-common/servers"
 
 	fib "github.com/gofiber/fiber/v2"
 )

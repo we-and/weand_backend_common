@@ -1,8 +1,8 @@
 package business
 
 import (
-	"stretches-common-api/models"
-	m "stretches-common-api/models"
+	"github.com/we-and/weand_backend_common/models"
+	m "github.com/we-and/weand_backend_common/models"
 
 	"gorm.io/gorm"
 )

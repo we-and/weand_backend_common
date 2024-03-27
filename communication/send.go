@@ -1,8 +1,8 @@
 package communication
 
 import (
-	"stretches-common-api/app"
-	m "stretches-common-api/models"
+	"github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
 )
 
 func Send(target string,r *app.RouteContext, pTeam *m.Team, pBatch *m.SendBatch, pubMap map[string]interface{}) {

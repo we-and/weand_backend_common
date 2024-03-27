@@ -3,9 +3,9 @@ package formatters
 import (
 	"time"
 
-	m "stretches-common-api/models"
+	m "github.com/we-and/weand_backend_common/models"
 
-	"stretches-common-api/publicid"
+	"github.com/we-and/weand_backend_common/publicid"
 )
 
 type PricingFormattedItem struct {

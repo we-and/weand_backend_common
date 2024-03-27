@@ -2,8 +2,9 @@ package log
 
 import (
 	"fmt"
-	"stretches-common-api/app"
 	"strings"
+
+	"github.com/we-and/weand_backend_common/app"
 
 	fiber "github.com/gofiber/fiber/v2"
 )

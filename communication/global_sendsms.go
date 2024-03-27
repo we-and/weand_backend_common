@@ -1,18 +1,19 @@
 package communication
 
 import (
-	//communication "stretches-common-api/communication"
+	//communication "github.com/we-and/weand_backend_common/communication"
 	"errors"
 	"fmt"
-	app "stretches-common-api/app"
-	m "stretches-common-api/models"
-	query "stretches-common-api/query"
 	"time"
+
+	app "github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
+	query "github.com/we-and/weand_backend_common/query"
 
 	//	"gorm.io/gorm"
 
-	//	project "stretches-common-api/project"
-	structs "stretches-common-api/structs"
+	//	project "github.com/we-and/weand_backend_common/project"
+	structs "github.com/we-and/weand_backend_common/structs"
 )
 
 func SendSMSReceipt(r app.RouteContext, to string, pMessage *structs.SMSMessage) (bool, error) {

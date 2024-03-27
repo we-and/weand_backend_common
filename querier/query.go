@@ -1,6 +1,6 @@
 package querier
 
-//import "stretches-common-api/app"
+//import "github.com/we-and/weand_backend_common/app"
 
 type Querier struct {
 	//H interface{}

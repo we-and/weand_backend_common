@@ -1,9 +1,9 @@
 package business
 
 import (
-	"stretches-common-api/app"
-	m "stretches-common-api/models"
-	"stretches-common-api/query"
+	"github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/query"
 
 	"gorm.io/gorm"
 )

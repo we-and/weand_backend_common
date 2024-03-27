@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"stretches-common-api/app"
-	"stretches-common-api/models"
-	"stretches-common-api/query"
+	"github.com/we-and/weand_backend_common/app"
+	"github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/query"
 
 	"github.com/google/uuid"
 	"gorm.io/gorm"

@@ -1,9 +1,10 @@
 package models
 
 import (
-	"stretches-common-api/utils"
 	"strings"
 	"time"
+
+	"github.com/we-and/weand_backend_common/utils"
 )
 
 type LinkPollPerson struct {

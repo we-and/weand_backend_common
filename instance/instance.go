@@ -1,6 +1,6 @@
 package instance
 
-import config "stretches-common-api/config"
+import config "github.com/we-and/weand_backend_common/config"
 
 type ProjectConfig struct {
 	DEV_FOLDER_KEY string

@@ -2,8 +2,9 @@ package app
 
 import (
 	"fmt"
-	m "stretches-common-api/models"
-	"stretches-common-api/response"
+
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/response"
 
 	"time"
 

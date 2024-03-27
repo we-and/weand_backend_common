@@ -1,9 +1,9 @@
 package app
 
 import (
-	config "stretches-common-api/config"
+	config "github.com/we-and/weand_backend_common/config"
 
-	//	"stretches-common-api/querier"
+	//	"github.com/we-and/weand_backend_common/querier"
 
 	firebase "firebase.google.com/go/v4"
 	"github.com/gofiber/fiber/v2"

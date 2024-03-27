@@ -1,8 +1,8 @@
 package communication
 
 import (
-	//	"stretches-common-api/communication"
-	config "stretches-common-api/config"
+	//	"github.com/we-and/weand_backend_common/communication"
+	config "github.com/we-and/weand_backend_common/config"
 )
 
 func BuildTwilioCredentials(appConfig *config.AppConfig) TwillioCredentials {

@@ -1,7 +1,7 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
+	m "github.com/we-and/weand_backend_common/models"
 )
 
 type DescsetFormattedItem struct {

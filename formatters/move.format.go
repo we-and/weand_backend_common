@@ -1,10 +1,11 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
-	"stretches-common-api/publicid"
 	"strings"
 	"unicode"
+
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/publicid"
 )
 
 type AudioFormattedItem struct {

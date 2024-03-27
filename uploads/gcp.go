@@ -7,11 +7,12 @@ import (
 	"io"
 	"os"
 	fp "path/filepath"
-	"stretches-common-api/app"
-	business "stretches-common-api/business"
-	config "stretches-common-api/config"
-	ut "stretches-common-api/utils"
 	"strings"
+
+	"github.com/we-and/weand_backend_common/app"
+	business "github.com/we-and/weand_backend_common/business"
+	config "github.com/we-and/weand_backend_common/config"
+	ut "github.com/we-and/weand_backend_common/utils"
 
 	"cloud.google.com/go/storage"
 )

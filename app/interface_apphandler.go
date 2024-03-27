@@ -1,12 +1,12 @@
 package app
 
 import (
-	config "stretches-common-api/config"
+	config "github.com/we-and/weand_backend_common/config"
 
 	"cloud.google.com/go/storage"
 	firebase "firebase.google.com/go/v4"
 
-	//"stretches-common-api/querier"
+	//"github.com/we-and/weand_backend_common/querier"
 	"gorm.io/gorm"
 )
 

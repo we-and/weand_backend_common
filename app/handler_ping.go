@@ -2,9 +2,10 @@ package app
 
 import (
 	"fmt"
-	"stretches-common-api/types"
 
-	response "stretches-common-api/response"
+	"github.com/we-and/weand_backend_common/types"
+
+	response "github.com/we-and/weand_backend_common/response"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"

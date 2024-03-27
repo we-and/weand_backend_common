@@ -2,7 +2,8 @@ package business
 
 import (
 	"fmt"
-	config "stretches-common-api/config"
+
+	config "github.com/we-and/weand_backend_common/config"
 )
 
 func GetBucketname(conf config.AppConfig, dbKey string) string {

@@ -1,11 +1,11 @@
 package notify
 
 import (
-	"stretches-common-api/app"
-	m "stretches-common-api/models"
+	"github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
 
-	"stretches-common-api/communication"
-	"stretches-common-api/query"
+	"github.com/we-and/weand_backend_common/communication"
+	"github.com/we-and/weand_backend_common/query"
 
 	"gorm.io/gorm"
 )

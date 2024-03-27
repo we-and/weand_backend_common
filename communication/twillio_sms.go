@@ -7,7 +7,7 @@ import (
 	//"net/http"
 	//	"net/url"
 	//	"strings"
-	"stretches-common-api/app"
+	"github.com/we-and/weand_backend_common/app"
 
 	twilio_ "github.com/kevinburke/twilio-go"
 )

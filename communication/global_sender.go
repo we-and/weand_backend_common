@@ -1,17 +1,18 @@
 package communication
 
 import (
-	//communication "stretches-common-api/communication"
+	//communication "github.com/we-and/weand_backend_common/communication"
 	"errors"
 	"fmt"
-	app "stretches-common-api/app"
-	m "stretches-common-api/models"
-	"stretches-common-api/usage"
+
+	app "github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/usage"
 
 	//	"gorm.io/gorm"
 
-	//	project "stretches-common-api/project"
-	structs "stretches-common-api/structs"
+	//	project "github.com/we-and/weand_backend_common/project"
+	structs "github.com/we-and/weand_backend_common/structs"
 )
 
 /*

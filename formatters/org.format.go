@@ -1,9 +1,10 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
-	structs "stretches-common-api/structs"
 	"time"
+
+	m "github.com/we-and/weand_backend_common/models"
+	structs "github.com/we-and/weand_backend_common/structs"
 )
 
 type OrgFormattedItem struct {

@@ -3,9 +3,9 @@ package formatters
 import (
 	"time"
 
-	"stretches-common-api/publicid"
+	"github.com/we-and/weand_backend_common/publicid"
 
-	m "stretches-common-api/models"
+	m "github.com/we-and/weand_backend_common/models"
 )
 
 type PlanFormattedItem struct {

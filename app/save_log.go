@@ -2,7 +2,8 @@ package app
 
 import (
 	"fmt"
-	m "stretches-common-api/models"
+
+	m "github.com/we-and/weand_backend_common/models"
 
 	fiber "github.com/gofiber/fiber/v2"
 	//"gorm.io/gorm"

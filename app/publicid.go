@@ -4,8 +4,9 @@ import (
 	"errors"
 	"fmt"
 	"strconv"
-	"stretches-common-api/publicid"
-	"stretches-common-api/validators"
+
+	"github.com/we-and/weand_backend_common/publicid"
+	"github.com/we-and/weand_backend_common/validators"
 
 	fiber "github.com/gofiber/fiber/v2"
 )

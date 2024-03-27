@@ -2,8 +2,9 @@ package auth
 
 import (
 	"errors"
-	"stretches-common-api/app"
-	"stretches-common-api/structs"
+
+	"github.com/we-and/weand_backend_common/app"
+	"github.com/we-and/weand_backend_common/structs"
 )
 
 // / Reads userId from request header "Authorization" and checks if user has ADMIN rights

@@ -3,7 +3,7 @@ package publicid
 import (
 	"fmt"
 
-	skip32 "stretches-common-api/publicid/skip32"
+	skip32 "github.com/we-and/weand_backend_common/publicid/skip32"
 
 	uuid "github.com/satori/go.uuid"
 )

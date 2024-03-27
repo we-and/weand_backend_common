@@ -1,9 +1,10 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
-	"stretches-common-api/publicid"
 	"time"
+
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/publicid"
 )
 
 type LoginHistoryFormattedItem struct {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"stretches-common-api/structs"
-	util "stretches-common-api/utils"
+	"github.com/we-and/weand_backend_common/structs"
+	util "github.com/we-and/weand_backend_common/utils"
 
 	"gorm.io/gorm"
 )

@@ -1,10 +1,10 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
-	structs "stretches-common-api/structs"
+	m "github.com/we-and/weand_backend_common/models"
+	structs "github.com/we-and/weand_backend_common/structs"
 
-	"stretches-common-api/publicid"
+	"github.com/we-and/weand_backend_common/publicid"
 )
 
 type PersonFormattedItem struct {

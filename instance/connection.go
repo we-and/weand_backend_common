@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	config "stretches-common-api/config"
+	config "github.com/we-and/weand_backend_common/config"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

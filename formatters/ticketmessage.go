@@ -1,8 +1,9 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
 	"time"
+
+	m "github.com/we-and/weand_backend_common/models"
 )
 
 type TicketmessageFormattedItem struct {

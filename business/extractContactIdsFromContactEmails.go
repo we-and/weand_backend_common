@@ -1,7 +1,7 @@
 package business
 
 import (
-	"stretches-common-api/models"
+	"github.com/we-and/weand_backend_common/models"
 )
 
 func ExtractContactIdsFromContactEmails(contactemails []models.ContactEmail) []uint32 {

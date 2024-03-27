@@ -3,10 +3,12 @@ package instance
 import (
 	"fmt"
 	"os"
-	config "stretches-common-api/config"
 
-	common "stretches-common-api"
-	utils "weand-common-server/utils"
+	config "github.com/we-and/weand_backend_common/config"
+
+	common "github.com/we-and/weand_backend_common"
+
+	utils "github.com/we-and/weand-server-common/utils"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"

@@ -3,8 +3,9 @@ package instance
 import (
 	"errors"
 	"log"
-	"stretches-common-api/app"
 	"strings"
+
+	"github.com/we-and/weand_backend_common/app"
 
 	"gorm.io/gorm"
 

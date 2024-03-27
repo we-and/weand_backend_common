@@ -3,8 +3,9 @@ package utils
 import (
 	"fmt"
 	"strconv"
-	"stretches-common-api/publicid"
 	"strings"
+
+	"github.com/we-and/weand_backend_common/publicid"
 
 	"github.com/lib/pq"
 )

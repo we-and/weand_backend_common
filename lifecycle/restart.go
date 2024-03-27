@@ -1,8 +1,8 @@
 package lifecycle
 
 import (
-	config "stretches-common-api/config"
-	commoninstance "stretches-common-api/instance"
+	config "github.com/we-and/weand_backend_common/config"
+	commoninstance "github.com/we-and/weand_backend_common/instance"
 
 	"gorm.io/gorm"
 )

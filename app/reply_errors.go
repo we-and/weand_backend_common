@@ -2,10 +2,10 @@ package app
 
 import (
 
-	///"stretches-common-api/log"
+	///"github.com/we-and/weand_backend_common/log"
 
-	"stretches-common-api/response"
-	//"stretches-common-api/log"
+	"github.com/we-and/weand_backend_common/response"
+	//"github.com/we-and/weand_backend_common/log"
 )
 
 func SetBadRequest(r RouteContext, trigger string, err error, errCode string) {

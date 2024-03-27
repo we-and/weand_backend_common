@@ -3,11 +3,11 @@ package business
 import (
 
 	//	"gorm.io/gorm"
-	//	"stretches-common-api/config"
+	//	"github.com/we-and/weand_backend_common/config"
 
-	"stretches-common-api/app"
-	m "stretches-common-api/models"
-	"stretches-common-api/mysendinblue"
+	"github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/mysendinblue"
 )
 
 func Resend(r app.RouteContext, emailConfirmRequest m.EmailConfirmRequest) (bool, string, error, string, bool) {

@@ -1,9 +1,10 @@
 package formatters
 
 import (
-	models "stretches-common-api/models"
-	"stretches-common-api/publicid"
 	"time"
+
+	models "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/publicid"
 )
 
 type BetatesterFormattedItem struct {

@@ -3,8 +3,9 @@ package communication
 import (
 	"context"
 	"fmt"
-	"stretches-common-api/app"
-	m "stretches-common-api/models"
+
+	"github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
 
 	firebasemessaging "firebase.google.com/go/v4/messaging"
 	"gorm.io/gorm"

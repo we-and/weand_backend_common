@@ -2,8 +2,9 @@ package query
 
 import (
 	"fmt"
-	"stretches-common-api/app"
-	"stretches-common-api/errorcode"
+
+	"github.com/we-and/weand_backend_common/app"
+	"github.com/we-and/weand_backend_common/errorcode"
 
 	"reflect"
 

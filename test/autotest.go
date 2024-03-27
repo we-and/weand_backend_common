@@ -1,8 +1,9 @@
 package test
 
 import (
-	config "stretches-common-api/config"
 	"strings"
+
+	config "github.com/we-and/weand_backend_common/config"
 )
 
 func IsRealUser(email string) bool {

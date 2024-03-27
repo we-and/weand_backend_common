@@ -1,8 +1,9 @@
 package models
 
 import (
-	"stretches-common-api/structs"
 	"time"
+
+	"github.com/we-and/weand_backend_common/structs"
 
 	"gorm.io/gorm"
 )

@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"stretches-common-api/utils"
+	"github.com/we-and/weand_backend_common/utils"
 
 	"gorm.io/gorm"
 )

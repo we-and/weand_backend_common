@@ -1,11 +1,12 @@
 package usage
 
 import (
-	app "stretches-common-api/app"
-	m "stretches-common-api/models"
-	"stretches-common-api/query"
 	"time"
-	// "stretches-common-api/timezone"
+
+	app "github.com/we-and/weand_backend_common/app"
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/query"
+	// "github.com/we-and/weand_backend_common/timezone"
 )
 
 func IncrementSMSReceived(r app.RouteContext, teamId uint32) error {

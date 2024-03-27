@@ -1,7 +1,7 @@
 package communication
 
 import (
-	structs "stretches-common-api/structs"
+	structs "github.com/we-and/weand_backend_common/structs"
 )
 
 func GetEmailTemplateId(message *structs.EmailMessage) string {

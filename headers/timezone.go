@@ -2,9 +2,10 @@ package headers
 
 import (
 	"errors"
-	"stretches-common-api/app"
-	"stretches-common-api/timezone"
 	"time"
+
+	"github.com/we-and/weand_backend_common/app"
+	"github.com/we-and/weand_backend_common/timezone"
 )
 
 func GetTimezoneNameFromHeader(r app.RouteContext) (string, string, string, error, string) {

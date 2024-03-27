@@ -1,10 +1,11 @@
 package formatters
 
 import (
-	m "stretches-common-api/models"
-	"stretches-common-api/publicid"
-	structs "stretches-common-api/structs"
 	"time"
+
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/publicid"
+	structs "github.com/we-and/weand_backend_common/structs"
 )
 
 type FeedFormattedItem struct {

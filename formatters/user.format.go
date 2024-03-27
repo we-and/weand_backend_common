@@ -1,11 +1,12 @@
 package formatters
 
 import (
-	"stretches-common-api/business"
-	m "stretches-common-api/models"
-	"stretches-common-api/publicid"
-	"stretches-common-api/structs"
 	"time"
+
+	"github.com/we-and/weand_backend_common/business"
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/publicid"
+	"github.com/we-and/weand_backend_common/structs"
 )
 
 type UserFormattedItem struct {

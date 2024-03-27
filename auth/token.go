@@ -4,12 +4,13 @@ import (
 	"errors"
 	"fmt"
 	"regexp"
-	"stretches-common-api/app"
-	config "stretches-common-api/config"
-	m "stretches-common-api/models"
-	"stretches-common-api/query"
-	"stretches-common-api/structs"
 	"time"
+
+	"github.com/we-and/weand_backend_common/app"
+	config "github.com/we-and/weand_backend_common/config"
+	m "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/query"
+	"github.com/we-and/weand_backend_common/structs"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"gorm.io/gorm"

@@ -2,7 +2,8 @@ package response
 
 import (
 	"fmt"
-	"stretches-common-api/types"
+
+	"github.com/we-and/weand_backend_common/types"
 
 	"encoding/xml"
 

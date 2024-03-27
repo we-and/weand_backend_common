@@ -2,7 +2,8 @@ package business
 
 import (
 	"fmt"
-	m "stretches-common-api/models"
+
+	m "github.com/we-and/weand_backend_common/models"
 )
 
 func GetUserPhone(u m.User) string {

@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	ut "stretches-common-api/utils"
+
+	ut "github.com/we-and/weand_backend_common/utils"
 )
 
 func WriteFormImageToFile(r RouteContext, formkey string, tmpfilename string) (bool, string, []byte, *os.File) {

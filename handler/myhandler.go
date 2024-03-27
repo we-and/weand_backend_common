@@ -1,7 +1,7 @@
 package handler
 
 import (
-	config "stretches-common-api/config"
+	config "github.com/we-and/weand_backend_common/config"
 
 	"cloud.google.com/go/storage"
 	"gorm.io/gorm"

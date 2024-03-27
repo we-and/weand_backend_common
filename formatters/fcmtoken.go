@@ -1,6 +1,6 @@
 package formatters
 
-import m "stretches-common-api/models"
+import m "github.com/we-and/weand_backend_common/models"
 
 
 type FCMTokenFormattedItem struct {

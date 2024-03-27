@@ -2,11 +2,12 @@ package models
 
 import (
 	"fmt"
-	"stretches-common-api/structs"
-	"stretches-common-api/timezone"
-	util "stretches-common-api/utils"
 	"strings"
 	"time"
+
+	"github.com/we-and/weand_backend_common/structs"
+	"github.com/we-and/weand_backend_common/timezone"
+	util "github.com/we-and/weand_backend_common/utils"
 
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"github.com/teambition/rrule-go"

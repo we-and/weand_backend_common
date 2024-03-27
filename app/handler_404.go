@@ -2,7 +2,8 @@ package app
 
 import (
 	"errors"
-	response "stretches-common-api/response"
+
+	response "github.com/we-and/weand_backend_common/response"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,11 +1,12 @@
 package formatters
 
 import (
-	models "stretches-common-api/models"
-	"stretches-common-api/publicid"
-	structs "stretches-common-api/structs"
-	"stretches-common-api/timezone"
 	"time"
+
+	models "github.com/we-and/weand_backend_common/models"
+	"github.com/we-and/weand_backend_common/publicid"
+	structs "github.com/we-and/weand_backend_common/structs"
+	"github.com/we-and/weand_backend_common/timezone"
 )
 
 type PollReplyFormattedItem struct {
